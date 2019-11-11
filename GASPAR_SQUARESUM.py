@@ -1,6 +1,5 @@
-def squaresum(n)
-sum = 0
-for i in range(1,n):
-	sum+=i**2
-print("total: " + sum +)
-return sum
+def squaresum(n):
+    sum = 0
+    for i in range(1,n+1):
+        sum+=i**2
+    return sum
